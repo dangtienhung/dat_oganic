@@ -32,7 +32,7 @@
       /* border-style: none !important; */
     }
   </style>
-  <body ng-app="myApp6" ng-controller="myCtrl">
+  <body ng-app="myApp" ng-controller="myCtrl">
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
         <button
@@ -104,7 +104,7 @@
       </div>
     </nav>
     <div class="container">
-      <center><h1>Update tài khoản người dùng</h1></center>
+      <center><h1>Tạo tài khoản người dùng</h1></center>
       <div class="list p-3">
         <form id="addUserForm" name="addUserForm">
           <div class="mb-3">
@@ -116,7 +116,9 @@
               ng-model="fullName"
             />
             <div ng-show="showError" class="error-message" style="color: red">
+
               {{showClassName}}
+
             </div>
             <div ng-show="showError" class="hide"></div>
           </div>
@@ -188,6 +190,6 @@
       crossorigin="anonymous"
     ></script>
 
-    <script src="../../aunglarJS/app.js"></script>
+    <script src="../controllers/app.js"></script>
   </body>
 </html>
