@@ -1,0 +1,42 @@
+{
+  "users": [
+    {
+      "fullName": "ccccc",
+      "dob": "2024-02-13T17:00:00.000Z",
+      "phoneNumber": "123232323213",
+      "role": "ADMIN",
+      "address": "cc",
+      "id": "400d"
+    },
+    {
+      "fullName": "dqwdqdqwd",
+      "dob": "2024-02-14T17:00:00.000Z",
+      "phoneNumber": "21312414343423",
+      "role": "MEMBER",
+      "address": "fwefewfwe",
+      "id": "kZqvIni"
+    }
+  ],
+  "products": [
+    {
+      "poster": "Hưng 2",
+      "name": "Sản phẩm A",
+      "price": 23432423,
+      "size": "M",
+      "image": "cccccc",
+      "start-date": "2024-11-21T17:00:00.000Z",
+      "end-date": "2025-11-21T17:00:00.000Z",
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "poster": "Hưng 3",
+      "name": "Sản phẩm C",
+      "price": 23432423,
+      "size": "M",
+      "image": "c",
+      "start-date": "11/22/2024",
+      "end-date": "11/22/2025"
+    }
+  ]
+}
